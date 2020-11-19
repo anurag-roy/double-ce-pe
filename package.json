@@ -1,0 +1,22 @@
+{
+  "name": "double-ce-pe",
+  "version": "1.0.0",
+  "description": "Double CE/PE Strategy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "login": "node login.js",
+    "build": "rm -rf build && cd ui && npm run build --prod && cp -r build ../"
+  },
+  "keywords": [
+    "Zerodha"
+  ],
+  "author": "Anurag Roy",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "kiteconnect": "^3.1.0"
+  }
+}
