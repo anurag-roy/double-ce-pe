@@ -25,7 +25,7 @@ const SelectedStock = ({ input, data }) => {
   }
 
   return (
-    <Card title={`Selected Stock ${input}:`} style={{ width: 300 }}>
+    <Card title={`Selected Stock ${input}:`} style={{ width: 400 }}>
       {body}
     </Card>
   );
